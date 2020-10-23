@@ -1,13 +1,382 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&d");
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-bg
+
+    {
+        
+        margin: 0px 112px 0px;
+        
+       
+    }
+
+.logo_img{
+
+    height:10% ;
+    width:10% ;
 }
+
+
+.navbar{
+
+    background-color: #fff!important;
+
+}
+
+.navbar-brand
+{
+
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+
+.navbar a:hover{
+
+    color: #3b81db !important;
+
+}
+
+
+.menu-active{
+
+font-weight: bold;
+border-bottom: 1px solid #3b81db;
+}
+/* ******************************home style************ */
+
+
+
+#header
+
+    {
+        
+        margin: 50px 112px 0px;
+        height: 70vh;
+         
+        
+       
+    }
+
+    
+
+ 
+.brand-name{
+
+color:#3b81db;
+
+
+
+}
+
+.btn{
+
+    outline-color: #3b81db !important;
+    background-color: #fff!important;
+    color: #000 !important;
+    
+}
+
+.btn:hover{
+
+background-color: #3b81db !important;
+color: #fff !important;
+}
+
+.btn-get-started
+{
+border:1px solid #3b81db;
+text-decoration: none !important;
+padding: 5px;
+border-radius: 30px;
+transition: 0.5s;
+float: left;
+
+}
+
+.btn-get-started:hover{
+
+    background-color: #3b81db;
+    color:#fff;
+}
+
+.sub-title{
+
+    color:#646669
+}
+
+/* ************************* */
+
+
+
+.animated{
+
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+  
+     
+}
+
+
+
+@-webkit-keyframes up-down{
+
+    0%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+
+@keyframes up-down{
+
+    0%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+
+
+
+
+
+#header_service{
+
+       margin: 50px 112px 0px;
+        height: 130vh;
+       
+       
+
+
+}
+
+.contact_title{
+
+  color:#3b81db;
+  font-weight: bold;
+ text-shadow: 2px 2px 3px #646669;
+}
+
+
+
+.service_title
+{
+    color:#3b81db;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #646669;
+
+}
+
+.contact_div
+{
+    height: 65vh;
+}
+
+
+/* ********************************resposive*******Desktop view******* */
+/*
+@media (max-width:991px)
+{
+    #header{
+        height: 80vh;
+        text-align: center;
+    }
+    #header .header-img
+    {
+        text-align: center;
+        float: left;
+    }
+
+    #header .header-img img {
+        width:60%
+    }
+
+
+    .card-body .card-title , .card-text
+    {
+        
+        font-size: small;
+        margin: 0% !important;
+        float: left;
+    }
+        .btn{
+
+        
+         width: 50%;
+         margin: 5px ;
+         padding: 0;
+         float: left;
+         
+        
+
+         }
+
+    .card{
+    
+        margin: auto;
+        width: 130% !important;
+    }
+
+    .maincard
+    {
+        width: 120px;
+    }
+
+}
+*/
+
+/* ******************ipad view************************** */
+@media (max-width:780px)
+{
+
+    .logo_img{
+
+        height:20% ;
+        width:20% ;
+    }
+
+      
+    .nav-bg
+    {
+         
+        margin-left: 0;
+    }
+
+
+
+    #header{
+        
+        margin-left: 0;
+        height: 100vh;
+            
+        text-align: left;
+        width: 100%;
+
+       
+        
+        
+    }
+   
+
+    #header .header-img img {
+        width:100%
+    }
+
+
+    footer p
+    {
+       
+       text-align: center;
+        width: 100%;
+        margin-left: 0;
+        float: left;
+             
+    }
+
+     .btn{
+         margin-top: 10px;
+         margin-left: 0;
+     }
+}
+/* **************************Mobile view******************* */
+@media (max-width:420px)
+{
+
+    .logo_img{
+
+        height:20% ;
+        width:20% ;
+    }
+
+
+    .nav-bg
+    {
+         
+        margin-left: 0;
+    }
+
+
+
+    
+
+     .btn{
+         margin-top: 10px;
+         margin-left: 0;
+     }
+}
+
+/* **************************Mobile view******************* */
+@media (max-width:420px)
+{
+
+    .logo_img{
+
+        height:20% ;
+        width:20% ;
+    }
+
+
+    .nav-bg
+    {
+         
+        margin-left: 0;
+    }
+
+
+
+
+    #header{
+        
+        margin-left: 0;
+        height: 100vh;
+        text-align: left;
+        width: 100%;
+
+       
+        
+        
+    }
+
+   #header-service
+   {
+
+  padding-right: 50px;  
+
+   }
+
+    #header .header-img img {
+        width:100%;
+    }
+
+
+    footer p
+    {
+       
+       text-align: left;
+        width: 100%;
+        margin-left: 0;
+        float: left;
+             
+    }
+
+     .btn{
+         margin-top: 10px;
+         margin-left: 0;
+     }
+    }
