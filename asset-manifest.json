@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/aurawebtech/static/css/main.2cd65757.chunk.css",
+    "main.js": "/aurawebtech/static/js/main.22d43682.chunk.js",
+    "main.js.map": "/aurawebtech/static/js/main.22d43682.chunk.js.map",
+    "runtime-main.js": "/aurawebtech/static/js/runtime-main.efa9b78a.js",
+    "runtime-main.js.map": "/aurawebtech/static/js/runtime-main.efa9b78a.js.map",
+    "static/css/2.ea6b7726.chunk.css": "/aurawebtech/static/css/2.ea6b7726.chunk.css",
+    "static/js/2.f6669ec5.chunk.js": "/aurawebtech/static/js/2.f6669ec5.chunk.js",
+    "static/js/2.f6669ec5.chunk.js.map": "/aurawebtech/static/js/2.f6669ec5.chunk.js.map",
+    "index.html": "/aurawebtech/index.html",
+    "precache-manifest.3af667f1198f2756a828fedd5187fef9.js": "/aurawebtech/precache-manifest.3af667f1198f2756a828fedd5187fef9.js",
+    "service-worker.js": "/aurawebtech/service-worker.js",
+    "static/css/2.ea6b7726.chunk.css.map": "/aurawebtech/static/css/2.ea6b7726.chunk.css.map",
+    "static/css/main.2cd65757.chunk.css.map": "/aurawebtech/static/css/main.2cd65757.chunk.css.map",
+    "static/js/2.f6669ec5.chunk.js.LICENSE.txt": "/aurawebtech/static/js/2.f6669ec5.chunk.js.LICENSE.txt",
+    "static/media/About.jpg": "/aurawebtech/static/media/About.bf04bf43.jpg",
+    "static/media/Andr_dev.jpg": "/aurawebtech/static/media/Andr_dev.b94d9224.jpg",
+    "static/media/App_dev.jpg": "/aurawebtech/static/media/App_dev.f5c052aa.jpg",
+    "static/media/Digital_marketing.jpg": "/aurawebtech/static/media/Digital_marketing.bcf868fc.jpg",
+    "static/media/Marketing.jpg": "/aurawebtech/static/media/Marketing.cc40c328.jpg",
+    "static/media/Soft_dev.jpg": "/aurawebtech/static/media/Soft_dev.a6d34104.jpg",
+    "static/media/Work.jpg": "/aurawebtech/static/media/Work.2698ba75.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efa9b78a.js",
+    "static/css/2.ea6b7726.chunk.css",
+    "static/js/2.f6669ec5.chunk.js",
+    "static/css/main.2cd65757.chunk.css",
+    "static/js/main.22d43682.chunk.js"
+  ]
+}
