@@ -56,7 +56,7 @@ const formsubmit=(e)=>
 
     return(
          <>
-           <div className="my-4">
+           <div className="my-5">
                <h3 className="text-center contact_title">Contact Us</h3>
            </div>
         
