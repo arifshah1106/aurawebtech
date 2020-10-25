@@ -60,7 +60,7 @@ const formsubmit=(e)=>
                <h3 className="text-center contact_title">Contact Us</h3>
            </div>
         
-        <div className="container contact_div ">
+        <div className="container contact_div mb-4">
           <div className="row">
               <div className="col-10 col-md-6 mx-auto">
            
